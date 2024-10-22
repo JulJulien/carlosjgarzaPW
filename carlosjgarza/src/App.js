@@ -1,15 +1,24 @@
-import React from 'react';
-import NavigationBar from './components/NavigationBar';
-
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
 function App() {
-  return (
-    <div className="App">  
-      <NavigationBar />
+  const [message, setMessage] = useState('');
 
-      </div>
-  
-  
+  useEffect(() => {
+    // Fetch data from the backend
+    axios.get('http://localhost:5000/api')
+      .then(response => {
+        setMessage(response.data.message);
+      })
+      .catch(error => {
+        console.error('Error fetching data: ', error);
+      });
+  }, []);
+
+  return (
+    <div>
+      <h1>{message}</h1>
+    </div>
   );
 }
 
