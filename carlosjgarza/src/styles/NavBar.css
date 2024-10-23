@@ -1,6 +1,6 @@
 /* src/components/Navbar.css */
 .navbar {
-    background-color: navy !important; /* Solid color (you can choose your preferred color) */
+    background-color: rgb(26, 1, 108) !important; /* Solid color (you can choose your preferred color) */
     height: 60px !important;              /* Set the desired height */
     padding: 0 2rem;           /* Adjust padding to align content */
     color: white;              /* Text color */
@@ -17,13 +17,19 @@
     font-family: 'Raleway', sans-serif;
     font-size: 50px;               /* Custom font size */
     font-weight: bold;             /* Optional: to make it bold */
-}
-  
+  }
+
   .navbar .navbar-brand {
     color: white;
     font-size: 24px;
     font-weight: bold;
-}
+  }
+
+  .navbar .me-auto {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
 
   .navbar .ml-auto {
     color: white;
@@ -31,37 +37,21 @@
     justify-content: space-between;
   }
 
-    .navbar .me-auto a:hover, .navbar .ml-auto a:hover {
-        color: grey !important;
-    }
-
-  .navbar-logo h1 {
-    color: #fff;
-    margin: 0;
-  }
-  
-  .navbar-links {
+  .navbar .me-auto a, .navbar .ml-auto a {
     color: white;
-    list-style-type: none;
-    display: flex;
-    gap: 2rem;
-    margin: 0;
-  }
-  
-  .navbar-links li {
-    color: white;
-    display: inline;
-  }
-  
-  .navbar-links a {
-    color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    padding: 0.5rem;
   }
+
+  .navbar .me-auto a:hover{
+    color: grey !important;
+  }
+
+  .navbar .ml-auto a:hover {
+    color: grey !important;
+  }
+
+
   
-  .navbar-links a:hover {
-    background-color: #555;
-    border-radius: 5px;
-  }
+  
+
   

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Intro from './components/Intro';
 import NavBar from './components/NavBar';
+import About from './components/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <div>
       <NavBar/>
       <Intro />
+      <About />
       <h1>{message}</h1>
     </div>
   );
