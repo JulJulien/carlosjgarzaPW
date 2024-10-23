@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Intro from './components/Intro';
+import NavBar from './components/NavBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -17,6 +20,8 @@ function App() {
 
   return (
     <div>
+      <NavBar/>
+      <Intro />
       <h1>{message}</h1>
     </div>
   );
