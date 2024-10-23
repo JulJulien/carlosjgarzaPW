@@ -2,6 +2,8 @@ import React from 'react';
 import "../styles/Intro.css";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+
 
 
 const Intro = () =>{
@@ -31,9 +33,10 @@ const Intro = () =>{
                 <div className='intro-subtitle'>text here</div>
                 <div className='intro-desc'>text here</div>
                 <a
-                    href="mailto:gracielaguev7@gmail.com"
+                    href="mailto:cjulgarza@gmail.com"
                     className='intro-contact'
                 >
+                    <MailOutlineIcon style={{ fontSize: 30, color: 'navy'}} />
                     {" Say hi! "}
                 </a>
             </div>
