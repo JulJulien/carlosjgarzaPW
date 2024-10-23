@@ -25,29 +25,13 @@
     font-weight: bold;
   }
 
-  .navbar .me-auto {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .navbar .ml-auto {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .navbar .me-auto a, .navbar .ml-auto a {
-    color: white;
+  .navbar .me-auto, .navbar .ml-auto {
+    color: var(--mywhite) !important;
     text-decoration: none;
   }
 
-  .navbar .me-auto a:hover{
-    color: grey !important;
-  }
-
-  .navbar .ml-auto a:hover {
-    color: grey !important;
+  .navbar .me-auto:hover,  .navbar .ml-auto:hover{
+    color: var(--myyellow) !important;
   }
 
 
