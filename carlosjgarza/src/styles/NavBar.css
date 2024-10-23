@@ -25,15 +25,32 @@
     font-weight: bold;
   }
 
-  .navbar .me-auto, .navbar .ml-auto {
-    color: var(--mywhite) !important;
-    text-decoration: none;
-  }
 
-  .navbar .me-auto:hover,  .navbar .ml-auto:hover{
-    color: var(--myyellow) !important;
-  }
+  /* Links in the me-auto section */
+.navbar .me-auto .nav-link {
+  color: white !important;     /* Default color */
+  vertical-align: 'center'; 
+  font-size: 15px;
+  text-decoration: none;       /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition */
+}
 
+.navbar .me-auto .nav-link:hover {
+  color: var(--myyellow) !important; /* Change to --myyellow on hover */
+}
+
+/* Icons in the ml-auto section */
+.navbar .ml-auto .nav-link {
+  color: white !important;     /* Default color */
+  vertical-align: 'center'; 
+  font-size: 40px;
+  text-decoration: none;       /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.navbar .ml-auto .nav-link:hover {
+  color: var(--myyellow) !important; /* Change to --myyellow on hover */
+}
 
   
   

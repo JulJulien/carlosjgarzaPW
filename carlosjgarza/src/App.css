@@ -1,12 +1,11 @@
 .App {
   text-align: center;
+  background-color: var(--lightest-color);
 }
 
-:root {
-  --myblue: rgb(6, 6, 96);
-  --myyellow: #7d712a;
-  --mywhite: #f5f5f5;
-  --highlight-color: #FFFFCC;
+html {
+  scroll-behavior: smooth;
+  background-color: #b5e8ff;
 }
 
 .App-logo {
