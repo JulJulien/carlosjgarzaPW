@@ -29,7 +29,6 @@
     "deploy": "gh-pages -d build"
   },
   "homepage": "https://juljulien.github.io/carlosjgarzaPW/",
-
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -49,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.2.0"
   }
 }
