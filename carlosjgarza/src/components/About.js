@@ -42,7 +42,7 @@ class About extends React.Component{
                   
                 </div>
                 <div className="about-image">
-                  <img src={"/assets/Cropped_CJG_Professional_Headshot.jpg"} alt="CarlosGarza" />
+                  <img src={"/assets/Cropped_CJG_Professional_Headshot.JPG"} alt="CarlosGarza" />
                 </div>
               </div>
             </div>
