@@ -1,0 +1,58 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: rgb(26, 1, 108) !important; /* Solid color (you can choose your preferred color) */
+    height: 60px !important;              /* Set the desired height */
+    padding: 0 2rem;           /* Adjust padding to align content */
+    color: white;              /* Text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;          /* Make the navbar stick at the top on scroll */
+    top: 0;                    /* Stick to the top of the viewport */
+    z-index: 1000;             /* Ensure it stays above other content */
+  
+  }
+
+  .custom-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;               /* Custom font size */
+    font-weight: bold;             /* Optional: to make it bold */
+  }
+
+  .navbar .navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+
+  /* Links in the me-auto section */
+.navbar .me-auto .nav-link {
+  color: white !important;     /* Default color */
+  vertical-align: 'center'; 
+  font-size: 15px;
+  text-decoration: none;       /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.navbar .me-auto .nav-link:hover {
+  color: var(--myyellow) !important; /* Change to --myyellow on hover */
+}
+
+/* Icons in the ml-auto section */
+.navbar .ml-auto .nav-link {
+  color: white !important;     /* Default color */
+  vertical-align: 'center'; 
+  font-size: 40px;
+  text-decoration: none;       /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.navbar .ml-auto .nav-link:hover {
+  color: var(--myyellow) !important; /* Change to --myyellow on hover */
+}
+
+  
+  
+
+  
