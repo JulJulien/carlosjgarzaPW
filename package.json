@@ -1,11 +1,11 @@
 {
-  "homepage": "https//juljulien.github.io/carlosjgarzaPW",
+  "homepage": "https://juljulien.github.io/carlosjgarzaPW/",
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",  
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,10 +15,32 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.5",
+    "@mui/material": "^6.1.5",
     "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
     "express": "^4.21.1",
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.2.0",
+    "react": "^18",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18",
+    "react-scripts": "^5.0.1",
+    "typed.js": "^2.1.0",
+    "web-vitals": "^4.2.4"
   },
-  "homepage": "https://juljulien.github.io/carlosjgarzaPW/"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
